@@ -1,7 +1,7 @@
-import { BackgroundSyncPlugin } from "workbox-background-sync";
+// import { BackgroundSyncPlugin } from "workbox-background-sync";
 import { cleanupOutdatedCaches, precacheAndRoute } from "workbox-precaching";
 import { NavigationRoute, Route, registerRoute } from "workbox-routing";
-import { CacheFirst, NetworkFirst, NetworkOnly } from "workbox-strategies";
+import { CacheFirst, NetworkFirst } from "workbox-strategies";
 
 declare let self: ServiceWorkerGlobalScope;
 
