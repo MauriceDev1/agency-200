@@ -20,10 +20,10 @@ function Wellcome() {
       <div className="h-screen flex flex-col">
         <div className="max-w-96 mx-auto my-auto">
           <div className="mx-auto pt-10">
-          <InstallPWAButton />
           <Lottie options={defaultOptions}  />
           </div>
 
+          <InstallPWAButton />
           <div className="mt-10">
             <p className="text-4xl text-gray-800">
               <span className=" mr-2">Better </span>
