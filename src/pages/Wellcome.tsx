@@ -45,7 +45,7 @@ function Wellcome() {
                 <IoArrowForward className="my-auto text-2xl text-white" />
               </div>
             </Link>
-
+<br></br>
 <InstallPWAButton />
           </div>
         </div>
