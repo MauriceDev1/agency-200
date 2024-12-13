@@ -5,7 +5,7 @@ type Props = {
 };
 
 function Layout({ children }: Props) {
-  return <div className="p-4 max-w-xl mx-auto h-full">{children}</div>;
+  return <div className="md:p-4 md:max-w-xl mx-auto h-screen">{children}</div>;
 }
 
 export default Layout;

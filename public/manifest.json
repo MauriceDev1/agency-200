@@ -9,7 +9,7 @@
     "orientation": "portrait",
     "icons": [
       {
-        "src": "pwa-64x64.png",
+        "src": "/pwa-64x64.png",
         "sizes": "64x64",
         "type": "image/png"
       },

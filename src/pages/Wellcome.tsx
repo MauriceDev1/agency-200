@@ -19,15 +19,15 @@ function Wellcome() {
       <div className="h-screen flex flex-col">
         <div className="max-w-96 mx-auto my-auto">
           <div className="mx-auto pt-10">
-          <Lottie options={defaultOptions} height={400} width={400} />
+          <Lottie options={defaultOptions}  />
           </div>
 
           <div className="mt-10">
-            <p className="text-4xl">
-              <span className="text-green-200 mr-2">Better </span>
+            <p className="text-4xl text-gray-800">
+              <span className=" mr-2">Better </span>
               Task Management
             </p>
-            <p className="mt-4 text-gray-300 text-opacity-90">
+            <p className="mt-4 text-gray-800 text-opacity-90">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
               hic sunt recusandae quaerat esse fugiat
             </p>
