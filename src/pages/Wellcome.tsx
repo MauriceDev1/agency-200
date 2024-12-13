@@ -22,8 +22,6 @@ function Wellcome() {
           <div className="mx-auto pt-10">
           <Lottie options={defaultOptions}  />
           </div>
-
-          <InstallPWAButton />
           <div className="mt-10">
             <p className="text-4xl text-gray-800">
               <span className=" mr-2">Better </span>
@@ -47,6 +45,8 @@ function Wellcome() {
                 <IoArrowForward className="my-auto text-2xl text-white" />
               </div>
             </Link>
+
+<InstallPWAButton />
           </div>
         </div>
       </div>
