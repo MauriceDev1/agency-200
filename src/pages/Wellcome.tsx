@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Lottie from 'react-lottie';
 import animationData from '../assets/animay.json';
 import Layout from "../components/Layout";
+import InstallPWAButton from "../components/PwaButton";
 
 function Wellcome() {
     const defaultOptions = {
@@ -19,6 +20,7 @@ function Wellcome() {
       <div className="h-screen flex flex-col">
         <div className="max-w-96 mx-auto my-auto">
           <div className="mx-auto pt-10">
+          <InstallPWAButton />
           <Lottie options={defaultOptions}  />
           </div>
 
